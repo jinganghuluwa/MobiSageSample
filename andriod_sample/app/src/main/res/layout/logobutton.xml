@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="58dp"
+    android:background="@drawable/logobutton_background" >
+
+    <RelativeLayout
+        android:id="@+id/logobutton_logolayout"
+        android:layout_width="62dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true" >
+
+        <ImageView
+            android:id="@+id/logobutton_logo"
+            android:layout_width="46dp"
+            android:layout_height="46dp"
+            android:layout_centerInParent="true" />
+    </RelativeLayout>
+
+    <FrameLayout
+        android:id="@+id/logobutton_line"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/logobutton_logolayout"
+        android:background="@color/native_back_color" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/logobutton_line" >
+
+        <TextView
+            android:id="@+id/logobutton_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@color/native_item_text_color"
+            android:textSize="15sp" />
+    </RelativeLayout>
+
+</RelativeLayout>

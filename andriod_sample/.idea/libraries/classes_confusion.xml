@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="classes_confusion">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/classes_confusion.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
